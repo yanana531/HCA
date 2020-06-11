@@ -1,0 +1,82 @@
+.new-func {
+  color: #444;
+  margin: 20px 40px 5px;
+}
+
+#page_top {
+  margin-right: 30px;
+  margin-bottom: 50px;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  background: #0033cc;
+}
+
+#page_top a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+#page_top a::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -15px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.tool {
+  width: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+#txt_data {
+  position: relative;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 200px;
+}
+
+.yanunu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0033cc;
+  position: relative;
+  display: inline-block;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.yanunu a::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: #0033cc;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.yanunu a:hover::after {
+  width: 100%;
+}
+/*# sourceMappingURL=mail.css.map */
